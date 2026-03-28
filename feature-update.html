@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+    <title>What's new in EaseUI</title>
+
+    <!--[if mso]>
+    <noscript>
+        <xml>
+            <o:OfficeDocumentSettings>
+                <o:AllowPNG/>
+                <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+    </noscript>
+    <![endif]-->
+
+    <!-- ============================================================
+         SHARED STYLE BLOCK — Identical across all EaseUI emails
+         EaseUI Design System
+         ============================================================ -->
+    <style>
+        /* Reset */
+        body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+        table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+        img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+
+        /* Base */
+        body { margin: 0 !important; padding: 0 !important; width: 100% !important; background-color: #f4f4f5; }
+
+        /* Links — EaseUI --green: #10B981 */
+        a { color: #10B981; text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; }
+
+        /* Responsive */
+        @media only screen and (max-width: 640px) {
+            .email-container { width: 100% !important; max-width: 100% !important; }
+            .fluid-padding { padding-left: 24px !important; padding-right: 24px !important; }
+            .mobile-stack { display: block !important; width: 100% !important; }
+        }
+
+        /* Dark Mode — Zinc scale */
+        @media (prefers-color-scheme: dark) {
+            body, .email-body { background-color: #0f0f0f !important; }
+            .email-card { background-color: #1a1a1a !important; border-color: #27272a !important; }
+            .text-heading { color: #fafafa !important; }
+            .text-body { color: #d4d4d8 !important; }
+            .text-secondary { color: #a1a1aa !important; }
+            .text-muted { color: #71717a !important; }
+            .inner-card { background-color: #111111 !important; border-color: #27272a !important; }
+            .badge { background-color: rgba(16, 185, 129, 0.15) !important; color: #34d399 !important; }
+            .btn-cta { background-color: #059669 !important; box-shadow: 0 2px 4px -1px rgba(16,185,129,0.40), 0px 0px 0px 1px rgba(16,185,129,0.30) !important; }
+            .divider { border-color: #27272a !important; }
+            .footer-text { color: #52525b !important; }
+        }
+
+        /* Outlook Dark Mode */
+        [data-ogsc] .email-card, [data-ogsb] .email-card { background-color: #1a1a1a !important; }
+        [data-ogsc] .text-heading { color: #fafafa !important; }
+        [data-ogsc] .text-body { color: #d4d4d8 !important; }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f5; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;" class="email-body">
+    
+    <!-- Preheader -->
+    <div style="display: none; font-size: 1px; color: #f4f4f5; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+        New features, improvements, and fixes in the latest EaseUI release.
+        &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+    </div>
+
+    <!-- ============================================================
+         SHARED WRAPPER — Identical across all EaseUI emails
+         ============================================================ -->
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #f4f4f5;" class="email-body">
+        <tr>
+            <td style="padding: 40px 16px;" align="center" valign="top">
+
+                <!-- Email Container (600px max) -->
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600" class="email-container" style="max-width: 600px; width: 100%;">
+
+                    <!-- SHARED: Logo -->
+                    <tr>
+                        <td align="center" style="padding-bottom: 32px;">
+                            <img src="https://easeui.design/images/Logo.png" alt="EaseUI" width="120" height="auto" style="display: block; border: 0; width: 120px; height: auto;">
+                        </td>
+                    </tr>
+
+                    <!-- SHARED: Main Card -->
+                    <tr>
+                        <td>
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="email-card" style="background-color: #ffffff; border: 1px solid #e4e4e7; border-radius: 32px; overflow: hidden; box-shadow: 0px 6px 3px 0px rgba(0,0,0,0.01), 0px 3px 3px 0px rgba(0,0,0,0.02), 0px 1px 1px 0px rgba(0,0,0,0.02);">
+                                <tr>
+                                    <td style="padding: 48px 40px 40px 40px;" class="fluid-padding">
+
+                                        <!-- ============================
+                                             TEMPLATE-SPECIFIC CONTENT
+                                             ============================ -->
+
+                                        <!-- Version Badge -->
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="padding-bottom: 24px;">
+                                                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                                                        <tr>
+                                                            <td class="badge" style="background-color: rgba(16, 185, 129, 0.10); border-radius: 100px; padding: 6px 16px; font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; color: #059669; letter-spacing: 0.02em;">
+                                                                <!-- Replace with actual version -->
+                                                                v0.25 &middot; March 2026
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- Heading -->
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                                <td class="text-heading" style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 700; line-height: 1.3; color: #18181b; letter-spacing: -0.02em; padding-bottom: 16px;">
+                                                    What's new in EaseUI
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-body" style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.7; color: #3f3f46; padding-bottom: 40px;">
+                                                    Here's what we shipped this release. As always, your feedback drove most of these improvements.
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- Section: New Features -->
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; line-height: 1.4; color: #10B981; text-transform: uppercase; letter-spacing: 0.05em; padding-bottom: 16px;">
+                                                    New Features
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- Feature Item 1 -->
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="inner-card" style="background-color: #fafafa; border: 1px solid #e4e4e7; border-radius: 16px; margin-bottom: 12px;">
+                                            <tr>
+                                                <td style="padding: 20px 24px;">
+                                                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                        <tr>
+                                                            <td class="text-heading" style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; line-height: 1.4; color: #18181b; padding-bottom: 6px;">
+                                                                <!-- Replace with actual feature -->
+                                                                Design System Extraction
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-secondary" style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #71717a;">
+                                                                Automatically extract tokens, components, and guidelines from any generated design. Export as JSON or CSS variables.
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- Feature Item 2 -->
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="inner-card" style="background-color: #fafafa; border: 1px solid #e4e4e7; border-radius: 16px; margin-bottom: 12px;">
+                                            <tr>
+                                                <td style="padding: 20px 24px;">
+                                                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                        <tr>
+                                                            <td class="text-heading" style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; line-height: 1.4; color: #18181b; padding-bottom: 6px;">
+                                                                Multi-variant Canvas
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-secondary" style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #71717a;">
+                                                                Compare up to 6 design variants side-by-side on the infinite canvas with tree-style connections.
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- Feature Item 3 -->
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="inner-card" style="background-color: #fafafa; border: 1px solid #e4e4e7; border-radius: 16px; margin-bottom: 32px;">
+                                            <tr>
+                                                <td style="padding: 20px 24px;">
+                                                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                        <tr>
+                                                            <td class="text-heading" style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; line-height: 1.4; color: #18181b; padding-bottom: 6px;">
+                                                                Image-to-Design Pipeline
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-secondary" style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #71717a;">
+                                                                Upload a screenshot or mockup and let EaseUI extract the design system, recreate it, and generate code.
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- Section: Improvements -->
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; line-height: 1.4; color: #18181b; text-transform: uppercase; letter-spacing: 0.05em; padding-bottom: 16px;">
+                                                    Improvements
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- Improvement List -->
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="padding-bottom: 32px;">
+                                            <tr>
+                                                <td class="text-body" style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 2.0; color: #3f3f46; padding-left: 4px;">
+                                                    <span style="color: #10B981;">&rarr;</span>&nbsp;&nbsp;Canvas performance improved by 40% on large projects<br>
+                                                    <span style="color: #10B981;">&rarr;</span>&nbsp;&nbsp;Code export now supports Tailwind v4<br>
+                                                    <span style="color: #10B981;">&rarr;</span>&nbsp;&nbsp;Smarter prompt understanding for component-level generation<br>
+                                                    <span style="color: #10B981;">&rarr;</span>&nbsp;&nbsp;Dark mode toggle for generated previews
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- CTA -->
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="padding-bottom: 40px;">
+                                            <tr>
+                                                <td align="center">
+                                                    <!--[if mso]>
+                                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://easeui.design/changelog" style="height:44px;v-text-anchor:middle;width:280px;" arcsize="50%" stroke="f" fillcolor="#10B981">
+                                                        <w:anchorlock/>
+                                                        <center style="color:#ffffff;font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px;font-weight:600;">View Full Changelog &rarr;</center>
+                                                    </v:roundrect>
+                                                    <![endif]-->
+                                                    <!--[if !mso]><!-->
+                                                    <a href="https://easeui.design/changelog" target="_blank" class="btn-cta" style="display: inline-block; background-color: #10B981; color: #ffffff; font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; text-decoration: none; padding: 14px 40px; border-radius: 100px; text-align: center; line-height: 1; letter-spacing: -0.01em; box-shadow: 0 2px 4px -1px rgba(16,185,129,0.30), 0px 0px 0px 1px rgba(16,185,129,0.20);">
+                                                        View Full Changelog &rarr;
+                                                    </a>
+                                                    <!--<![endif]-->
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- Divider -->
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                                <td class="divider" style="border-top: 1px solid #e4e4e7; padding-bottom: 32px; font-size: 0; line-height: 0;">&nbsp;</td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- ============================
+                                             END TEMPLATE-SPECIFIC
+                                             ============================ -->
+
+                                        <!-- SHARED: Signature Block -->
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                                <td class="text-body" style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.7; color: #3f3f46; padding-bottom: 8px;">
+                                                    Have thoughts on these features? Reply to this email &mdash; I personally read every response.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-body" style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.7; color: #3f3f46; padding-bottom: 4px;">
+                                                    &mdash; Jang
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-secondary" style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #71717a;">
+                                                    Founder &amp; Chief Product Engineer
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- SHARED: Footer -->
+                    <tr>
+                        <td align="center" style="padding: 32px 16px 16px 16px;">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                <tr>
+                                    <td align="center" class="footer-text" style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6; color: #a1a1aa;">
+                                        &copy; 2026 EaseUI &middot; Ho Chi Minh City, Vietnam
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding-top: 8px; font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6;">
+                                        <a href="%mailing_list_unsubscribe_url%" style="color: #a1a1aa; text-decoration: underline; font-weight: 600;">Unsubscribe</a>
+                                        <span style="color: #d4d4d8;">&nbsp;&middot;&nbsp;</span>
+                                        <a href="https://easeui.design/legal/privacy-policy" style="color: #a1a1aa; text-decoration: underline; font-weight: 600;">Privacy Policy</a>
+                                        <span style="color: #d4d4d8;">&nbsp;&middot;&nbsp;</span>
+                                        <a href="https://discord.gg/tCa9ZgAchB" style="color: #a1a1aa; text-decoration: underline; font-weight: 600;">Discord</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
