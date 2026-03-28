@@ -40,13 +40,17 @@
             .text-secondary { color: #a1a1aa !important; }
             .text-muted { color: #71717a !important; }
             .inner-card { background-color: #111111 !important; border-color: #27272a !important; }
+            .dm-heading { color: #fafafa !important; }
+            .dm-body { color: #d4d4d8 !important; }
+            .dm-label { color: #a1a1aa !important; }
             .btn-cta { background-color: #059669 !important; box-shadow: 0 2px 4px -1px rgba(16,185,129,0.40), 0px 0px 0px 1px rgba(16,185,129,0.30) !important; }
             .divider { border-color: #27272a !important; }
             .footer-text { color: #52525b !important; }
         }
         [data-ogsc] .email-card, [data-ogsb] .email-card { background-color: #1a1a1a !important; }
-        [data-ogsc] .text-heading { color: #fafafa !important; }
-        [data-ogsc] .text-body { color: #d4d4d8 !important; }
+        [data-ogsc] .text-heading, [data-ogsc] .dm-heading { color: #fafafa !important; }
+        [data-ogsc] .text-body, [data-ogsc] .dm-body { color: #d4d4d8 !important; }
+        [data-ogsc] .dm-label { color: #a1a1aa !important; }
     </style>
 </head>
 <body style="margin: 0; padding: 0; background-color: #f4f4f5; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;" class="email-body">
@@ -99,14 +103,14 @@
                                                 <td style="padding: 24px;">
                                                     <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
                                                         <tr>
-                                                            <td style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; line-height: 1.4; color: #18181b; text-transform: uppercase; letter-spacing: 0.05em; padding-bottom: 16px;">
+                                                            <td class="dm-heading" style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; line-height: 1.4; color: #18181b; text-transform: uppercase; letter-spacing: 0.05em; padding-bottom: 16px;">
                                                                 What You Keep
                                                             </td>
                                                         </tr>
                                                     </table>
                                                     <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
                                                         <tr>
-                                                            <td style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 2.0; color: #3f3f46;">
+                                                            <td class="dm-body" style="font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 2.0; color: #3f3f46;">
                                                                 <span style="color: #10B981; font-weight: 600;">&rarr;</span>&nbsp;&nbsp;Unlimited AI generations<br>
                                                                 <span style="color: #10B981; font-weight: 600;">&rarr;</span>&nbsp;&nbsp;All export formats (React, Next.js, Flutter, shadcn/ui, HTML)<br>
                                                                 <span style="color: #10B981; font-weight: 600;">&rarr;</span>&nbsp;&nbsp;Figma sync &amp; MCP server access<br>
