@@ -10,6 +10,14 @@ Production-grade HTML email templates for EaseUI, built to render consistently a
 | **Welcome** | `welcome.html` | Onboarding | `%recipient.first_name%`, `%mailing_list_unsubscribe_url%` |
 | **Feature Update** | `feature-update.html` | Marketing | `%mailing_list_unsubscribe_url%` |
 | **Password Reset** | `password-reset.html` | Transactional | `%recipient.reset_url%` |
+| **Verify Email** | `verify-email.html` | Transactional | `%recipient.first_name%`, `%recipient.verify_url%` |
+| **Login Alert** | `login-alert.html` | Transactional | `%recipient.first_name%`, `%recipient.device%`, `%recipient.location%`, `%recipient.time%` |
+| **Payment Receipt** | `payment-receipt.html` | Transactional | `%recipient.first_name%`, `%recipient.plan_name%`, `%recipient.amount%`, `%recipient.date%`, `%recipient.invoice_url%` |
+| **Purchase Confirm** | `purchase-confirm.html` | Transactional | `%recipient.first_name%`, `%recipient.plan_name%` |
+| **Payment Failed** | `payment-failed.html` | Transactional | `%recipient.first_name%`, `%recipient.update_billing_url%` |
+| **Trial Ending** | `trial-ending.html` | Marketing | `%recipient.first_name%`, `%recipient.days_left%`, `%mailing_list_unsubscribe_url%` |
+| **Usage Digest** | `usage-digest.html` | Marketing | `%recipient.first_name%`, `%recipient.generations_count%`, `%recipient.exports_count%`, `%recipient.projects_count%`, `%recipient.top_project%`, `%mailing_list_unsubscribe_url%` |
+| **Re-engagement** | `re-engagement.html` | Marketing | `%recipient.first_name%`, `%mailing_list_unsubscribe_url%` |
 
 ## Design System (Email-Safe Tokens)
 
